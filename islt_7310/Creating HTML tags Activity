@@ -3,13 +3,27 @@
     <head>
     <meta charset="utf-8">
     <title>
-        Welcome to Mehnaz Hassan's Website
+      My Biography
     </title>
     </head>
-    <h1>Welcome to my first website!</h1>
+    <h1>
+    Mehnaz Hassan 
+    <h3>Hardworker</h3>
+    <h3>Passionate</h3>
+    <h3>Respectful</h3>
+    <h3>Ongoing Learner</h3>
+    </h1>
     <body>
-       <p> Hi
-            </p> 
+       <li>
+         University of California, Merced (May 2012)
+         <li>Bachelor of Science: Applied Mathematical Science
+         <li>Emphasis on Engineering and minor in Natural Sciences Education </li>
+        </li>
+        <li> Fresno Pacific University
+        <li> Preliminary Single Subject Math Credential  </li>
+        <li> Cleared Single Subject Math Teaching Credential </li>
+        </li>
+        
         
         
          <p>

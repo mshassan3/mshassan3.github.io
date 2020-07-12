@@ -17,36 +17,55 @@ Tested: June 28, 2019; Passed on Microsoft Edge and Chrome browsers.
     </title>
         <link rel="stylesheet"
               href="style.css">
-       
+        <!--Used Relational Selector (child)-->
+        <style>
+           body > #qualities {color:lightsalmon;}
+        </style>
     </head>
     <body>
-         <header>Home Page</header>
+         <header id="header1">Home Page</header>
           <!--this portion is to include the professional photo-->
-    <img src ="images/headshot.jpg" alt="Professional Headshot" height="120"> 
+    <img id="img1" src ="images/photo1.jpg" alt="Professional Headshot" height="245"> 
    
-    <h3>Mehnaz Hassan </h3>
-        <p>Hardworker <br>Passionate <br>   Respectful <br>    Ongoing Learner<br> Team Player</p>
+    <h3 id="name">Mehnaz Hassan </h3>
+        <p id="qualities">Hardworker <br>Passionate <br>   Respectful <br>    Ongoing Learner<br> Team Player</p>
         
     <main>
-       <h1 id="headerone">My Degrees and Certification</h1>
+       <h1 id="headerone">Educational Background</h1>
         <!--Unordered list (bullets) of degrees and certifications-->
         <ul>
-        <li>
+        <li id="currentedu"> <strong>University of Missouri - Columbia (Present)</strong> - Master's in Learning Technologies and Design degree <i>(Online Education)</i> </li>
+         <li class="edu"> 
+        <strong>Merced City School District (June 2019)</strong> - Cleared Single Subject Math Teaching Credential
+         </li>
+        <li class="edu"> 
+        <strong>Fresno Pacific University (May 2017)</strong> - Preliminary Single Subject Math Credential</li>    
+        <li class ="edu">
         <strong> University of California, Merced (May 2012)</strong> -
             Bachelor of Science: Applied Mathematical Science<i>
         (Emphasis in Engineering and minor in Natural Sciences Education)</i>
-            
-         
         </li>
-        <li> 
-        <strong>Fresno Pacific University (May 2017)</strong> - Preliminary Single Subject Math Credential</li>
-        <li> 
-        <strong>Merced City School District (June 2019)</strong> - Cleared Single Subject Math Teaching Credential
-         </li>
-        <li> <strong>University of Missouri - Columbia (Present)</strong> - Master's in Learning Technologies and Design degree <i>(Online Education)</i> </li>
      </ul>
+        
+         <h1 id="headerone">Experience </h1>
+        <!--Unordered list (bullets) of degrees and certifications-->
+        <ul>
+        <li id="currentpos">
+        <strong> Merced City School District </strong> -
+           Industrial Arts Teacher
+        (August 2020-2021)
+        </li>
+        <li class="exp"> 
+        <strong>Merced City School District</strong> - 7th Grade Math Teacher (August 2016-June 2020) </li>
+        <li class ="exp"> 
+        <strong>Dos Palos Oro Loma Joint Unified School District</strong> - 6th Grade Math Teacher (Sept 2015-June 2016)
+         </li>
+        <li class="exp"> <strong>Chico Unified School District</strong> - Substitute Teacker from Kindergarten thru high school (August 2013-June 2014) </li>
+     </ul>
+        
+        
         <!--The following is a short paragraph about me including my welcome statement-->
-        <p>Hi! Welcome to my professional website!A website that consists of my professional background and professional development as an educator. My name is Mehnaz Hassan. My first experience observing from a teacher’s point of view was during my fieldwork at UC Merced where I learned how significant self-reflection is to grow. After graduating, I was a substitute teacher at Chico Unified School District where I learned about classroom management. I worked hard to attended Fresno Pacific University while also teaching full time and commuting to work. I taught sixth grade math at Bryant Middle School my first-year teaching. For the last four years, I have taught seventh grade math (including an intervention and accelerated course). Thankfully, I did not have to commute anymore. This upcoming school year, I am excited to teach seventh/eighth grade industrial arts teacher and a period of AVID.
+        <p class="para">Hi! Welcome to my professional website!A website that consists of my professional background and professional development as an educator. My name is Mehnaz Hassan. My first experience observing from a teacher’s point of view was during my fieldwork at UC Merced where I learned how significant self-reflection is to grow. After graduating, I was a substitute teacher at Chico Unified School District where I learned about classroom management. I worked hard to attended Fresno Pacific University while also teaching full time and commuting to work. I taught sixth grade math at Bryant Middle School my first-year teaching. For the last four years, I have taught seventh grade math (including an intervention and accelerated course). Thankfully, I did not have to commute anymore. This upcoming school year, I am excited to teach seventh/eighth grade industrial arts teacher and a period of AVID.
         </p>
         </main>
         <blockquote>

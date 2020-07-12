@@ -1,2 +1,12 @@
-#headerone{color:#993366;}  
+#headerone{color:#009900;font-size:30pt;font-family:cursive;}  
 footer a:link{color:mediumvioletred; font-size:10pt;text-decoration: none;} 
+#name{color:#009900;font-size:24pt;font-family:cursive;}
+.para{color:blue;font-size:14pt;}
+#currentedu,currentpos{color:darkgoldenrod;}
+#currentpos{color:darkgoldenrod;}
+.edu{color:darkcyan;}
+.exp{color:darkcyan;}
+#img1{float:right;}
+#name{text-align: center;}
+#qualities{text-align:center;}
+#header1{color:darkgreen;font-style:italic;}

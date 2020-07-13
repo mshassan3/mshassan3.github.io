@@ -1,5 +1,21 @@
+/*Title: Style Web page
+Use: Used with resume and index (home page) html website to add style to content
+Author: Mehnaz Hassan
+School/Term: University of Missouri- Columbia,Summer 2020
+Developed:July 12, 2020
+Tested: July 13, 2020; Passed on Microsoft Edge and Chrome browsers. 
+*/
+
+/*Body in general*/
+body{background-color: papayawhip; margin:15px;}
+
+/*Resume*/
+#res{color:green;text-align:center;font-size:24pt;}
+body a:hover{color:purple;font-size:22pt;text-decoration: none;}
+
+/*-below is styling for home page*/
 #headerone{color:darkgreen;font-style:italic;}
-body{background-color: papayawhip;}
+
 #name{
     border:5px solid green;background-color:beige; 
     color:#009900;font-size:36pt;font-family:cursive;text-align:center;
@@ -9,8 +25,8 @@ body{background-color: papayawhip;}
 
 #headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-footer a:link{color:mediumvioletred; font-size:10pt;text-decoration: none;}
-#footerone{border-top: 2px dotted #009900;}
+footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
+#footerone{border-top: 2px dotted #009900;padding:5px;}
 
 .para{color:saddlebrown;font-size:14pt;border:5px solid teal;padding:10px;}
 
@@ -21,10 +37,13 @@ footer a:link{color:mediumvioletred; font-size:10pt;text-decoration: none;}
 /*Using position*/
 /*#img1{position:relative; left: 250px; top:80px; border:2px solid #009900;margin-top:8px;}*/
 /*Following is using float to position where the picture shows*/
-#img1{float:left; padding:1px;margin-top:0px;margin-bottom:10px;margin-left:300px;margin-right:450px; border:2px solid #009900;}
+#img1{float:left; padding:1px;margin-top:0px;margin-bottom:10px;margin-left:250px;margin-right:450px; border:2px solid #009900;}
 
 /*#qualities{text-align:center;
     position:relative; top: 90px; left:600px;
     font-size:18pt;}*/
 
 #qualities{margin-top:50px;margin-left:300px;font-size:18pt;text-align:center;}
+
+
+

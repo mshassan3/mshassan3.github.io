@@ -30,10 +30,11 @@ footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
 
 .para{color:saddlebrown;font-size:14pt;border:5px solid teal;padding:10px;}
 
-#currentedu{color:darkgoldenrod;text-indent:2cm;}
-#currentpos{color:darkgoldenrod;text-indent:2cm;}
-.edu{color:darkcyan;text-indent:2cm;}
-.exp{color:darkcyan;text-indent:2cm;}
+#currentedu{color:darkgoldenrod;}
+#currentpos{color:darkgoldenrod;}
+.edu{color:darkcyan;}
+.exp{color:darkcyan;}
+.homelists{text-indent:2cm;}
 /*Using position*/
 /*#img1{position:relative; left: 250px; top:80px; border:2px solid #009900;margin-top:8px;}*/
 /*Following is using float to position where the picture shows*/

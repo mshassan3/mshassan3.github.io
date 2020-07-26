@@ -1,0 +1,60 @@
+/*
+Title: Navigation Bar Styling Page
+Use:To style navigation bar
+Author: Mehnaz Hassan
+School/Term: University of Missouri- Columbia,Summer 2020
+Developed:July 16, 2020
+Tested: July 25, 2020; Passed on Chrome browser and validation test.
+
+*/
+
+
+nav> ul li{display:inline-block;
+            width:150px;
+            text-align:center;
+            position:relative;
+            padding:15px;
+           }
+
+  nav>ul>li>ul{
+                position:absolute;
+                top:68px;
+                display:none;
+                background-color: green;
+            }
+
+#navigationbar{
+  background-color: green;}
+/*for the background color of the reflection*/
+#reflectionbody{background-color:white;}
+
+  /*this represents to only show when the list item when you hover over the list item from the main list*/
+            nav>ul li:hover>ul{
+                display:block;
+                padding:10px;
+
+}
+
+/*For each element*/
+nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top:0;
+    border:2px solid white;
+    padding:5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: darkred;
+}
+
+nav li a:active {background-color:yellow;}
+nav ul li a:hover{border:2px solid white;
+}
+
+
+

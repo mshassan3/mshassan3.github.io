@@ -8,29 +8,47 @@ Use:An overview of you. Not detailed.
 Author: Mehnaz Hassan
 School/Term: University of Missouri- Columbia,Summer 2020
 Developed:July 12, 2020
-Tested: July 13, 2020; Passed on Microsoft Edge, Internet Explorer, and Chrome browsers. 
+Tested: July 25, 2020; Passed on Chrome browser and validation test.
 ***************************************************************************************************
 -->
     <meta charset="utf-8">
     <title>
      Home Page
     </title>
-        <link rel="stylesheet"
-              href="style.css">
+        <link rel="stylesheet" href="style.css">
+             <link rel="stylesheet" href="nav.css">
         <!--Used Relational Selector (child)-->
         <style>
-           body > #qualities {color:darkred;}
+           body > #qualities {color:teal;}   
         </style>
     </head>
     <body>
-         <header id="headerone">Home Page</header>
+      <nav id="navigationbar">
+         <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+         <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="#contact.html">Contact</a></li> 
+        <li><a href="experience.html">Experience</a>
+             <ul>
+            <li><a href="#project1">Project 1</a></li>
+            <li><a href="#project2">Project 2</a></li>
+           <li><a href="#project3">Project 3</a></li>
+            </ul>
+             </li>
+          </ul>
+     </nav>
           <!--this portion is to include the professional photo-->
-    
-   
     <h1 id="name">Mehnaz Hassan </h1>
         <img id="img1" src ="images/photo1.jpg" alt="Professional Headshot" height="160"> 
+        <img id="img2" src ="images/ucmerced.jpg" alt="UC Merced" height="120"> 
+        <img id="img3" src ="images/fpulogo.svg" alt=" FPU LOGO" height="120">
+         <img id="img4" src ="images/MU.png" alt=" Univ of Missouri LOGO" height="120">
+         
         <p id="qualities">Hardworker <br>Passionate <br>Respectful <br>Ongoing Learner<br>Team Player</p>
         
+    
     <main>
        <h3 id="headers1">Educational Background</h3>
         <!--Unordered list (bullets) of degrees and certifications-->
@@ -75,5 +93,6 @@ Tested: July 13, 2020; Passed on Microsoft Edge, Internet Explorer, and Chrome b
         <footer id ="footerone">
             <p>&copy;Copyright 2020 Mehnaz Hassan,<a href="mailto:mhmd3@umsystem.edu">mhmd3@umsystem.edu</a>.</p>
         </footer>
+            
     </body>
 </html>

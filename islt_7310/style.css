@@ -11,16 +11,16 @@ body{background-color: papayawhip; margin:15px;}
 
 /*Resume*/
 #res{color:green;text-align:center;font-size:24pt;}
-body a:hover{color:purple;font-size:24pt;text-decoration: none;}
+body a:hover{color:purple;font-size:24pt;text-decoration: none;width:100%;}
 
 /*-below is styling for home page*/
-#headerone{color:darkgreen;font-style:italic;}
 
 h1{
     border:5px solid green;background-color:beige; 
     color:#009900;font-size:36pt;font-family:cursive;text-align:center;
 }
 
+body ul{list-style-type: none;}
 #headers1{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
 #headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
@@ -38,22 +38,24 @@ footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
 /*Using position*/
 /*#img1{position:relative; left: 250px; top:80px; border:2px solid #009900;margin-top:8px;}*/
 /*Following is using float to position where the picture shows*/
-#img1{ padding:1px;margin-top:0px;margin-left:100px;margin-right:40px; border:2px solid #009900;}
-#img2{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
-#img3{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
-#img4{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+#img1{padding:1px;margin-top:0px;margin-left:200px;margin-right:2px; border:2px solid #009900; z-index:1;}
+
 /*#qualities{text-align:center;
     position:relative; top: 90px; left:600px;
     font-size:18pt;}*/
 
-#qualities{float:right; padding:10px;margin-top:0;margin-left:40px;margin-right: 100px; font-size:18pt;text-align:center; border:2px dashed #009900;}
+#qualities{padding:10px;margin:5px; font-size:18pt;text-align:center; border:2px dashed #009900;}
+
+#img2{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+#img3{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+#img4{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
 
 /*For Reflection Page*/
 h1, h3{background-color:white;text-align: center;
     margin-right: 100px;
     margin-left: 100px;;
     padding: 5px;}
-
+h4{text-align:center;}
 #reflection:first-letter{color:skyblue;font-size:200%}
 #reflection2:first-letter{color:blueviolet;font-size:200%;text-indent: 50cm;}
 #reflection3:first-letter{color:sienna;font-size:200%;text-indent: 50cm;}
@@ -71,3 +73,195 @@ h1, h3{background-color:white;text-align: center;
 
 /*Experience Page*/
 #projects{text-align: center;}
+
+/*Home Page Mobile Navigation and media query*/
+
+label{
+    display: none;
+}
+#hamburger{display:none;}
+
+/*format and position the main navigation menu*/
+   nav {
+    top: 0px;   
+}
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:block;
+    background-color: green;
+        top:0px;
+        z-index:100;
+}
+    
+    nav a {
+    position:relative;
+    top:100%;
+    text-decoration: none;
+    width: 100%; /*this is important to set so our drop-down doesn't go across the page*/
+    margin:2px;
+    display:block;
+}
+/*position sub-menu or drop-down*/
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+    top:0;
+    width:100%;
+}
+/*special hover to display the drop-down*/
+    nav>ul>li:hover>ul{
+    display: block;
+}
+  #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:70px;
+    line-height:70px;}
+/*contact page*/
+ #contactpara{text-align:center;}
+
+@media only screen and (max-width: 1113px) {
+    
+    #img1{padding:1px;margin-top:10px;margin-left:100px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    #reflectionheader1{margin-top:130px;}
+    #qualities{display:none;}
+    #headers1{padding:1px;margin:0;}
+    #headers2{padding:1px;margin:0;}
+    h1{font-size:20px;padding:1px;margin-left:80px;}
+    .homelists{margin-left: 2px;}   
+    
+    h1{width:70%; margin-left:50px;font-size:30px;margin-top:130px;}
+    h3{width:70%; margin-left:50px;border:1px dashed green;}
+    
+    
+    #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:50px;
+    line-height:50px;}
+    
+     .active{
+        top:65px;
+         text-align:center;
+        margin:0;padding:0;
+    }
+}
+@media only screen and (max-width: 510px){
+    header{
+		position: relative;
+        height: 20px;
+        display: block;
+        width: 100%;        
+	}
+	label{
+		display: block;
+        cursor:pointer;
+        padding-left: 20px;
+        width: 26px;
+        float: left;
+        font-size:26px;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 10px;
+        top: 7%;
+        align-content: center;
+        width:30%;
+    }
+   body ul{list-style-type: circle;}
+    nav ul>li:active ul {
+    position: relative;
+    top: 100%;
+        width:105%;
+    display: none;    
+    }
+    nav ul ul li {
+    float:none;
+        top:0;
+    }
+    nav:hover ul {
+		display: block;
+        top:46px;
+	}
+    /*background for submenu*/
+    	nav:hover nav ul li ul{
+		display: none;
+        text-align: center; 
+    }
+	nav li {
+		text-align: center;
+        width: 100%;
+        padding: 1px 1px;
+		margin: 0;
+        top:0px;
+        left:5px;
+	}
+/*      positioning of submenu
+            nav ul>li ul {
+            position:absolute;
+            left: 0%;
+            top:0%;
+            z-index:1;
+        }
+*/    #hamburger:checked +.active{
+        display:block;}
+    
+            /*special hover to display the drop-down*/
+   .active:hover nav ul>li ul {display:block;width:100%;}
+
+    nav ul li {
+        color:white;
+        margin:0;
+        display:block;
+        width:100%;}
+
+    #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:30px;
+    line-height:30px;}
+    
+     .active{
+        top:45px;
+         text-align:center;
+        display:none;
+        margin:0;padding:0;
+    }
+    
+    #img1{padding:1px;margin-top:35px;margin-left:80px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    #img2{display:none;}
+    #img3{display:none;}
+    #img4{display:none;}
+    
+   
+    h1{width:70%; margin-left:50px;font-size:20px;margin-top:0px;}
+    nav a {
+    position:relative;
+    top:100%;
+    text-decoration: none;
+    width: 100%; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 1px;
+    display:block;
+    }
+    
+    #mobileHide{display: none;}
+    
+    /*Reflection Page*/
+    #reflectionheader1{margin-top:3px;z-index:1;width:75%;margin-left:5px;}
+    #reflectionheader2{margin-top:100px;width:100%;margin-left:0;margin-right:0px;;border: 1px dashed green;background-color: beige;}
+    #reflectionbody{width:75%;margin-left:0px;}
+    
+    h1{width:70%; margin-left:50px;margin-top:30px;z-index:1;}
+    h3{width:70%; margin-left:50px;margin-top:30px;}
+    /*contact page*/
+    article{margin-top:50px;} 
+    }
+
+

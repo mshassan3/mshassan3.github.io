@@ -18,29 +18,31 @@ Tested: Tested: July 25, 2020; Passed on Chrome, Internet and Microsoft Edge bro
 </head>
 <body>
       <nav id="navigationbar">
-         <ul>
+           <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+     <ul class="active">
         <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="background.html">Background</a></li>
          <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="#contact.html">Contact</a></li> 
         <li><a href="experience.html">Experience</a>
-             <ul>
+             <ul id="mobileHide">
             <li><a href="#project1">Project 1</a></li>
             <li><a href="#project2">Project 2</a></li>
            <li><a href="#project3">Project 3</a></li>
             </ul>
-             </li>
-          </ul>
+        </li>
+        <li class="lastMobile"><a href="contact.html">Contact</a></li>
+    </ul>
      </nav>
     
     <!--I included <p> portion so it did not show a blank screen when tested even though I could see the title-->
 <header>
-    <h1 class="reflectionheader"> My Personal Reflection and My Teaching Philosophy</h1>
-    <h3 class="reflectionheader">Who is Mehnaz Hassan?</h3>
+    <h1 id="reflectionheader1"> My Personal Reflection and My Teaching Philosophy</h1>
     </header>
     
-<nav id="reflectionbody">    
+<section id="reflectionbody"> 
+       <h3 id="reflectionheader2">Who is Mehnaz Hassan?</h3>
 <p id="reflection">
     I have five years of experience teaching middle school students in a variety of settings. I taught seventh-grade children at an inner-city public school since August 2016 until last school year. I taught sixth and seventh grade level math, in both suburban and urban school districts for one and four years, respectively. My teaching experience at socioeconomically disadvantaged schools provided me with additional awareness and consideration to the needs of the diverse academic, socioeconomic, cultural, disabled and ethnic backgrounds. I appreciated the CPM (College Preparatory Mathematics) curriculum because it included more hands-on activities for students where they were meant to figure out the “why” with each other and groups.  The learning was more in the students’ hands.  I wanted to grow and challenge myself which is why I decided to switch from teaching math to technology.</p>
         
@@ -50,7 +52,7 @@ Tested: Tested: July 25, 2020; Passed on Chrome, Internet and Microsoft Edge bro
         
 <p id="reflection4">My passion for collaboration with parents, administrators, and colleagues (seventh and eighth grade teachers) and making every opportunity available for students to succeed is a part of my teaching philosophy. I would like to teach my students to be lifelong learners and teach them life skills and tools to be successful. I prefer student centered lessons where students are required to use critical thinking, writing, or problem solving. 
  </p>  
- </nav> 
+ </section> 
      <footer id ="footerone">
             <p>&copy;Copyright 2020 Mehnaz Hassan,<a href="mailto:mhmd3@umsystem.edu">mhmd3@umsystem.edu</a>.</p>
         </footer>

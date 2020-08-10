@@ -17,37 +17,38 @@ Tested: July 25, 2020; Passed on Chrome, Internet and Microsoft Edge browser and
     <link rel="stylesheet" href="nav.css">
 </head>
     <body>
-      <nav id="navigationbar">
-         <ul>
+        <nav id="navigationbar">
+           <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+     <ul class="active">
         <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="background.html">Background</a></li>
          <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="#contact.html">Contact</a></li> 
         <li><a href="experience.html">Experience</a>
-             <ul>
+             <ul id="mobileHide">
             <li><a href="#project1">Project 1</a></li>
             <li><a href="#project2">Project 2</a></li>
            <li><a href="#project3">Project 3</a></li>
             </ul>
-             </li>
-          </ul>
+        </li>
+        <li class="lastMobile"><a href="contact.html">Contact</a></li>
+    </ul>
      </nav>
-    
-    <!--I included <p> portion so it did not show a blank screen when tested even though I could see the title-->
-<header>
+        <header>
     <h1>Experience</h1>
-    <h3>Succesfully Accomplished Projects</h3>
-    </header>
-    
-<nav id="projects">    
+    </header>    
+        <main>
+<section id="projects">    
+<h3>Succesfully Accomplished Projects</h3>
 <p id="project1">Project 1</p>
-        
 <p id="project2">Project 2</p>
-        
-<p id="project3"> Project 3</p>
-        
- </nav> 
+<p id="project3"> Project 3</p>     
+ </section>
+        </main>
+    <!--I included <p> portion so it did not show a blank screen when tested even though I could see the title-->
+<br><br><br><br><br><br><br><br>
+ 
      <footer id ="footerone">
             <p>&copy;Copyright 2020 Mehnaz Hassan,<a href="mailto:mhmd3@umsystem.edu">mhmd3@umsystem.edu</a>.</p>
         </footer>

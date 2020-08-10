@@ -188,7 +188,6 @@ nav ul ul li {
     }
     nav:hover ul {
 		display: block;
-        top:46px;
 	}
     /*background for submenu*/
     	nav:hover nav ul li ul{

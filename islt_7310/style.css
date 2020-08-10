@@ -5,7 +5,7 @@ School/Term: University of Missouri- Columbia,Summer 2020
 Developed:July 12, 2020
 Tested: Tested: July 25, 2020; Passed on Chrome, Internet and Microsoft Edge browser and validation test.
 */
-
+.test {position:relative;}
 /*Body in general*/
 body{background-color: papayawhip; margin:15px;}
 

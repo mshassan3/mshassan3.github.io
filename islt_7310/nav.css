@@ -4,7 +4,7 @@ Use:To style navigation bar
 Author: Mehnaz Hassan
 School/Term: University of Missouri- Columbia,Summer 2020
 Developed:July 16, 2020
-Tested: Tested: July 25, 2020; Passed on Chrome, Internet and Microsoft Edge browser and validation test.
+Tested: August 10, 2020; Passed on Chrome, Firefox and Microsoft Edge browser and validation test.
 */
 .test {position:relative;}
 
@@ -72,6 +72,7 @@ nav ul li a:hover{border:2px solid white;
   font-size: 20px;
     margin-top:0;
     padding:0px;
+        
 }
     #navigationbar{
   background-color: green;}

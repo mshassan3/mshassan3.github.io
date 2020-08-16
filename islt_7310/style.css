@@ -349,6 +349,10 @@ blockquote{margin-left:100px;margin-right:195px;width:50%;}
         }
         
         
+        .exp{display: none;}
+        #currentpos{display:none;}
+        #headers2{display:none;}
+        
     /*layout reset*/
         #qualities{border:1px solid black;  margin:0;padding:0;width:25%;position:absolute;float:right;left:450px;top:100px;}
 
@@ -363,9 +367,7 @@ blockquote{margin-left:100px;margin-right:195px;width:50%;}
         color:#000;
         background:none;
     }
-    #headers1{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;margin:20px;padding:5px;border:none;}  
-        
-    #headers2{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;border:none;margin:0;padding:0;} 
+    #headers1{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;margin:20px;padding:5px;border:none;}   
         
     #AboutMeheader{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;border:none;margin:0;padding:0;}
         
@@ -375,14 +377,10 @@ blockquote{margin-left:100px;margin-right:195px;width:50%;}
         
     h2,h4,h5,h6{color:#000;font-size:24pt;line-height: 30pt;margin:0;}
         
-    #currentedu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:0;padding:0;}   
+    #currentedu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:0;padding:0;list-style-type:circle;}   
         
-    #currentpos{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:0;padding:0;}    
-        
-    .edu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;}
-   
-    .exp{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;}
-        
+    .edu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;list-style-type: circle;}
+
     .para{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
         
     blockquote{
@@ -408,7 +406,8 @@ blockquote{margin-left:100px;margin-right:195px;width:50%;}
             color:#000;
             background:none;
             text-decoration-line: none;
-        }     
+        }    
+        body{margin:25px 75px 75px 75px;}
 }
 
 

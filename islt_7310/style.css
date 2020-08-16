@@ -6,7 +6,7 @@ Developed:July 12, 2020
 Tested: Tested: August 15, 2020; Passed on Chrome, Firefox and validation test.
 */
 .test {position:relative;}
-
+#BWimg1{display:none;}
 /*Body in general*/
 body{background-color: papayawhip; margin:15px;}
 
@@ -15,21 +15,23 @@ body{background-color: papayawhip; margin:15px;}
 body a:hover{color:purple;font-size:24pt;text-decoration: none;width:100%;}
 
 /*-below is styling for home page*/
-
 h1{
     border:5px solid green;background-color:beige; 
     color:#008000;font-size:36pt;font-family:cursive;text-align:center;
 }
-
+.Footer{margin:0;padding:0;}
 body ul{list-style-type: none;}
 #headers1{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
 #headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
-#footerone{border-top: 2px dotted #009900;padding:5px;}
+#AboutMeheader{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-.para{color:saddlebrown;font-size:14pt;border:5px solid teal;padding:10px; font: 1em "Baloo Tamma 2", cursive;max-width:60ch;}
+footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
+#footerone{border-top: 2px dotted #009900;padding:5px;font: 1em "Baloo Tamma 2", cursive;}
+blockquote{font: 1em "Baloo Tamma 2", cursive;margin-left:100px;}
+
+.para{color:saddlebrown;font-size:14pt;padding:10px; font: 1em "Baloo Tamma 2", cursive;max-width:60ch;margin: 5px 100px;border-bottom: 2px solid teal;}
 
 #currentedu{color:#605422;}
 #currentpos{color:#605422;}
@@ -40,7 +42,7 @@ footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
 /*#img1{position:relative; left: 250px; top:80px; border:2px solid #009900;margin-top:8px;}*/
 /*Following is using float to position where the picture shows*/
 #img1{padding:1px;margin-top:0px;margin-left:200px;margin-right:2px; border:2px solid #009900; z-index:1;}
-
+#BWimg1{padding:1px;margin-top:0px;margin-left:200px;margin-right:2px; border:2px solid #009900; z-index:1;}
 /*#qualities{text-align:center;
     position:relative; top: 90px; left:600px;
     font-size:18pt;}*/
@@ -138,9 +140,10 @@ nav ul ul li {
 
 /*Footer background image*/
  .box{width:600px;
-                height: 400px;
-                padding:20px;
-                margin:100px auto;
+                height: 200px;
+                width:100%;
+                padding:10px;
+                margin:1px auto;
                 box-shadow: 0px 0px 10px 2px grey;
                 border: 2px solid green;
                 font: 1em "Baloo Tamma 2", cursive;
@@ -150,15 +153,22 @@ nav ul ul li {
             }
         div footer a{color:white;}
             div footer a:hover{color:white;}
+blockquote{margin-left:100px;margin-right:195px;width:50%;}
 
-
+.Footer{padding:0;margin:0;width:100%;}
+   #iconList{list-style:none;}
 @media only screen and (max-width: 1113px) {
     
     #img1{padding:1px;margin-top:10px;margin-left:100px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    
+     #BWimg1{padding:1px;margin-top:10px;margin-left:100px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    
     #reflectionheader1{margin-top:130px;}
     #qualities{display:none;}
     #headers1{padding:1px;margin:0;}
     #headers2{padding:1px;margin:0;}
+    #AboutMeheader{padding:1px;margin:0;}
+    
     h1{font-size:20px;padding:1px;margin-left:80px;}
     .homelists{margin-left: 2px;}   
     
@@ -177,6 +187,8 @@ nav ul ul li {
          text-align:center;
         margin:0;padding:0;
     }
+    .para{margin:0px 10px;width:90%}
+    blockquote{margin-left:15px;margin-right:5px;width:50%;}
     
 }
 @media only screen and (max-width: 510px){
@@ -262,6 +274,8 @@ nav ul ul li {
     }
     
     #img1{padding:1px;margin-top:35px;margin-left:80px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    
+    #BWimg1{padding:1px;margin-top:35px;margin-left:80px;margin-right:2px; border:2px solid #009900; z-index:1;}
     #img2{display:none;}
     #img3{display:none;}
     #img4{display:none;}
@@ -289,6 +303,9 @@ nav ul ul li {
     /*contact page*/
     article{margin-top:50px;} 
     
+    .para{margin:0px;}
+    blockquote{margin:5px 15px;}
+    
     #iframe-container iframe{
         position:relative;
         top:0;
@@ -307,6 +324,92 @@ nav ul ul li {
         height:0;
     }*/
     
+    @media print{
     
+    /*Hide Unwanted Items*/
+    img{display:none;}
+    #navigationbar{display:none;}
+    #BWimg1{display:block;}
+        
+    .box{width:600px;
+        height: 200px;
+        width:100%;
+        padding:0px;
+        margin:1px auto;
+        box-shadow: none;
+        border: none;
+        font: 16pt "Baloo Tamma 2", cursive;
+        line-height: 18pt;
+        background-image:none;
+        background-size:0;
+        color:#000;
+        border-top:1px solid black;  
+        color:#000;
+        background-image: none;
+        }
+        
+        
+    /*layout reset*/
+        #qualities{border:1px solid black;  margin:0;padding:0;width:25%;position:absolute;float:right;left:450px;top:100px;}
+
+    body {
+        font-family: sans-serif;
+        background:none;
+    }
+    body ul li{
+        font-family: sans-serif;
+        font-size:16pt; 
+        line-height:20pt;
+        color:#000;
+        background:none;
+    }
+    #headers1{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;margin:20px;padding:5px;border:none;}  
+        
+    #headers2{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;border:none;margin:0;padding:0;} 
+        
+    #AboutMeheader{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;border:none;margin:0;padding:0;}
+        
+    h1{font:30pt "Baloo Tamma 2", cursive;line-height:32pt;color:#000;border:none;margin:0;padding:0;}
+    
+    h3{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:5px;padding:0;}  
+        
+    h2,h4,h5,h6{color:#000;font-size:24pt;line-height: 30pt;margin:0;}
+        
+    #currentedu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:0;padding:0;}   
+        
+    #currentpos{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:0;padding:0;}    
+        
+    .edu{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;}
+   
+    .exp{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;}
+        
+    .para{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
+        
+    blockquote{
+        width:100%;
+        border:none;
+        padding:5px;
+        margin:0;
+        color:#000;
+        font-size:16pt;
+        line-height: 18pt;
+        border-top:1px solid #000;
+    }
+        
+   #footerone{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;border:none;margin:5px;padding:5px;border-bottom:1px solid #000;}   
+        
+        a:link{margin:0;padding:0}
+        
+        a::after{
+            content:"["attr(href)"]";
+        }
+        
+        footer a:link, footer a:visited {
+            color:#000;
+            background:none;
+            text-decoration-line: none;
+        }     
+}
+
 
 

@@ -3,56 +3,22 @@
 <head>
 <!-- 
 ***************************************************************************************************
-Title: Contact Web Page
-Use: To use as page for contact information
+Title: Project 1 Web Page
+Use: To share my first project. 
 Author: Mehnaz Hassan
 School/Term: University of Missouri- Columbia,Summer 2020
-Developed:July 23, 2020
+Developed:August 18, 2020
 Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
 ***************************************************************************************************
 -->
      <meta charset="utf-8">
-     <title>Contact/</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-<style>
-    /*main 
-    {display:grid;
-    grid-template-areas:
-        "nav header header"
-        "aside content content "
-        "footer footer footer"}
-   grid-template-columns:1fr 3fr 1fr;
-    grid-template-rows:50px auto 70px;
-    
-    align-items:center;
-    justify-items:center;
-    
-    #navigationbar{grid-area: navigationbar;}
-    
-    header{grid-area:header;}
-    aside{grid-area:aside;}
-    article{grid-area: content;}
-    footer{grid-area:footer;}*/
-            #contactMe{ 
-                background:beige; 
-                height:80px; 
-                list-style:none;
-                text-decoration: none;
-                padding:5px;
-                border:2px solid green;
-                text-align: center;
-            } 
-    section{border:2px solid green;
-        height:120px;
-        text-align:center;
-    }  
-    </style> 
-    </head>
+     <title>Project 1</title>
+         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+</head>
 <body>
-   <main>
-      <nav id="navigationbar">
-          <label for="hamburger">&#9776;</label>
+    <nav id="navigationbar">
+           <label for="hamburger">&#9776;</label>
           <input type="checkbox" id="hamburger"/>
      <ul class="active">
         <li><a href="index.html">Home</a></li>
@@ -69,25 +35,17 @@ Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
         <li class="lastMobile"><a href="contact.html">Contact</a></li>
     </ul>
      </nav>
-    <!--I included <p> portion so it did not show a blank screen when tested even though I could see the title-->
-<header>
-    <h1 id ="contactheader"> Would you like to contact me?</h1>
-    </header>
-       
-<article>
-    <h4 id= "contactpara"> Contact me today to schedule an interview! </h4>
-    <ul id="contactMe">
-        <li>Contact Me:</li>        
-        <li> Email: mhmd3@umsystem.edu</li>
-        <li>Cell: 1+888-888-8888</li>
-    </ul>
-</article>
-       <section id="googleForm">
-        <h4>How did you find me?(Survey with one question)</h4>
-        <a href="https://forms.gle/i6pxrowwJLTWXmwd9">Google Form</a>
-    </section>
-    <br><br><br>
-   <div class="box">        
+ <h1>Project 1</h1>
+    <h3>Powtoons Video Lesson (Teaching Algebraic Expressions for 7th grade)</h3>
+    
+    <div id="iframe-container">
+        <iframe width="510" height="400" src="video/Algebraic_Expressions.mp4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+<h3> One of my first projects involved creating my own video lesson using Powtoons and sharing it on YouTube. I taught myself how to use Powtoons and used it to create an interactive video lesson about Algebraic Expressions for my students. I was able to pause it at any time and let them respond. </h3>
+    
+    
+    <div class="box">        
    <footer id ="footerone">
        <ul id="iconList"> 
            <li>
@@ -107,6 +65,5 @@ Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
         </footer>
         </div>
     
-        </main>
 </body>
 </html>

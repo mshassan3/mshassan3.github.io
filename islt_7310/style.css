@@ -14,7 +14,7 @@ Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
 /*Home page*/
 div p{text-align: center;width:90%;}
 /*Body in general*/
-body{background-color: white; margin:15px;}
+body{background-color: papayawhip; margin:15px;}
 
 /*Resume*/
 #res{color:green;text-align:center;font-size:24pt;}
@@ -36,9 +36,9 @@ h1{
 
 .Footer{margin:0;padding:0;}
 body ul{list-style-type: none;}
-#headers1{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
+#headers1{color:#000;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-.headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
+.headers2{color:#000;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
 
 #AboutMeheader{color:darkgreen;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
 
@@ -515,7 +515,7 @@ div label{display:block;font-size: 12pt;text-align:left;padding-left: 0px;width:
    /*Home Page*/ 
 #AboutMeheader{margin-top:50px;margin-right:15%;font-size:10pt;}
     
-    #qualities{display:inline-block; top:130%;left:55%;margin:0px;font-size:10pt;text-align:center;padding:0px;
+    #qualities{display:inline-block; top:110%;left:55%;margin:0px;font-size:10pt;text-align:center;padding:0px;
     width:50%;border:none; list-style-type: none;}
     
     

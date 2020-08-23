@@ -1,0 +1,661 @@
+/*Title: Style Web page
+Use: Used with resume and index (home page) html website to add style to content
+Author: Mehnaz Hassan
+School/Term: University of Missouri- Columbia,Summer 2020
+Developed:July 12, 2020
+Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
+*/
+
+
+
+.test {position:relative;}
+#BWimg1{display:none;}
+
+/*Home page*/
+div p{text-align: center;width:90%;}
+/*Body in general*/
+body{background-color: white; margin:15px;}
+
+/*Resume*/
+#res{color:green;text-align:center;font-size:24pt;}
+body a:hover{color:purple;font-size:18pt;text-decoration: none;width:100%;}
+body p a{color:blue;font-size:12pt;text-decoration: none;width:100%;}
+body p a:hover{color:blue;font-size:12pt;text-decoration: underline;width:100%;}
+
+/*-below is styling for home page*/
+h1{
+    border:5px solid green;background-color:beige; 
+    color:#008000;font-size:36pt;font-family:cursive;text-align:center;
+}
+.para{margin:0 50px;}
+.para2 a:hover{color:blue;font-size:12pt;text-decoration: underline;}
+.para2{font-size:14pt;padding:10px; font: 1em "Baloo Tamma 2", cursive;max-width:60ch;margin: 5px 100px;}
+
+#para4 a:hover{color:blue;font-size:12pt;text-decoration: underline;}
+#para4{font-size:14pt;padding:10px; font: 1em "Baloo Tamma 2", cursive;max-width:60ch;margin: 5px 100px;}
+
+.Footer{margin:0;padding:0;}
+body ul{list-style-type: none;}
+#headers1{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
+
+.headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
+
+#AboutMeheader{color:darkgreen;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
+
+footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
+#footerone{border-top: 2px dotted #009900;padding:5px;font: 1em "Baloo Tamma 2", cursive;}
+blockquote{font: 1em "Baloo Tamma 2", cursive;margin-left:100px;}
+
+.para{color:saddlebrown;font-size:14pt;padding:10px; font: 1em "Baloo Tamma 2", cursive;border-bottom: 2px solid teal;}
+
+
+#currentedu{color:#225e60;font:16pt "Baloo Tamma 2", cursive;line-height:18pt;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
+#currentpos{color:#225e60;font:16pt "Baloo Tamma 2", cursive;line-height:18pt;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
+.edu{color:#225e60;font:16pt "Baloo Tamma 2", cursive;line-height:18pt;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
+.exp{color:#225e60;font:16pt "Baloo Tamma 2", cursive;line-height:18pt;width:90%;margin:0;margin-left: 20px;padding:0;border:none;}
+.homelists{margin-left: 100px;}
+/*Using position*/
+/*#img1{position:relative; left: 250px; top:80px; border:2px solid #009900;margin-top:8px;}*/
+/*Following is using float to position where the picture shows*/
+#img1{padding:1px;margin-top:50px;margin-left:200px;margin-right:2px; border:2px solid #009900; z-index:1;}
+#BWimg1{padding:1px;margin-top:0px;margin-left:200px;margin-right:2px; border:2px solid #009900; z-index:1;}
+/*#qualities{text-align:center;
+    position:relative; top: 90px; left:600px;
+    font-size:18pt;}*/
+
+#qualities{position:absolute; top:550px;left:30%;margin:20px;font-size:18pt;text-align:center;padding:10px;border: 2px dashed green;
+    width:50%;}
+#collegePics{position:relative;top:10px;left:15%;}
+
+#img2{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+#img3{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+#img4{padding:1px; margin-top:0px;margin-left:2px;margin-right:2px; border:2px solid #009900;}
+
+/*For Reflection Page*/
+h1, h3{background-color:white;text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 5px;
+}
+h4{text-align:center;}
+#reflection:first-letter{color:skyblue;font-size:200%}
+#reflection2:first-letter{color:blueviolet;font-size:200%;text-indent: 50cm;}
+#reflection3:first-letter{color:sienna;font-size:200%;text-indent: 50cm;}
+#reflection4:first-letter{color:seagreen;font-size:200%;text-indent: 50px;}
+#reflection2 {text-indent: 1cm;}
+#reflection3 {text-indent: 1cm;}
+#reflection4 {text-indent: 1cm;}
+#reflectionbody {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+
+/*Experience Page*/
+#projects{text-align: center;}
+
+#experience{font:14pt "Baloo Tamma 2", cursive;line-height:16pt;color:#000;width:90%;margin-left:8%;margin-right:10%;padding:0;border:1px solid green;text-align:center;padding:5px;}
+
+
+/*Home Page Mobile Navigation and media query*/
+
+label{
+    display: none;
+}
+#hamburger{display:none;}
+
+/*format and position the main navigation menu*/
+   nav {
+    top: 0px;   
+}
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:block;
+    background-color: green;
+        top:0px;
+        z-index:100;
+}
+    
+    nav a {
+    position:relative;
+    top:100%;
+    text-decoration: none;
+    width: 100%; /*this is important to set so our drop-down doesn't go across the page*/
+    margin:2px;
+    display:block;
+}
+/*position sub-menu or drop-down*/
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+    top:0;
+    width:100%;
+}
+/*special hover to display the drop-down*/
+    nav>ul>li:hover>ul{
+    display: block;
+}
+  #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:70px;
+    line-height:70px;}
+/*contact page*/
+ #contactpara{text-align:center;}
+
+
+  #iframe-container iframe{
+        position:relative;
+        top:0;
+        left:0;
+        width:100%;
+        padding-bottom:5%;
+        border:0px;
+    }
+
+/*Footer background image*/
+ .box{width:600px;
+        height: 125px;
+        width:100%;
+        padding:10px;
+        margin:1px auto;
+        box-shadow: 0px 0px 10px 2px grey;
+        border: 2px solid green;
+        font: 1em "Baloo Tamma 2", cursive;
+        background-image:url(images/back2.jpg);
+        background-size:cover;
+        color:white;
+            }
+    div footer a{color:white;font-size:8pt;}
+    div footer a:hover{color:white;font-size:9pt;}
+
+blockquote{margin-left:15%;margin-right:15%;width:70%;}
+.Footer{font-size:8pt;padding:0;margin:0;width:100%;}
+#iconList{font-size:8pt;list-style:none;margin:0;padding:0;}
+
+    .projectimgs{display:block;
+        position:relative;
+        left:350px;
+        bottom:350px;
+        }
+#project3img{display:block;
+        position:relative;
+        left:350px;
+    bottom:195px;
+}
+/*For the paragraphs in project3*/
+.para3{text-align: left;
+    margin-right: 100px;
+    margin-left: 100px;}
+/*increasing the size of the icons when hovered over*/
+.icons:hover{
+transform:scale(0.75);
+}
+
+/*Table for Educational Background*/
+table{
+    width:85%;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom:50px;
+    padding: 5px;
+}
+th, caption{text-align:left;}
+
+table, th, td{
+    border:1px solid green;
+    border-collapse:collapse;   
+}
+
+th, td, caption{
+    padding:10px;  
+}
+
+th{
+    background-color:darkgreen;
+    color:white;
+}
+tr:nth-child(even){
+    background-color:darkgreen;
+    color:white;
+}
+tr:nth-child(odd){
+    background-color:brown;
+    color:white;}
+
+tbody tr th:nth-child(odd){
+    background-color:teal;
+    color:white;
+    border:1px solid black;
+}
+thead tr th:first-child{
+    background-color:teal;
+    border:1px solid black;
+}
+
+/*Contact form*/
+.contactForm{padding:5px;margin:0 100px;}
+
+/*Contact Page*/
+.contactForm{text-align:left;font-size:16pt;}
+div label{display:block;font-size: 14pt;text-align:left;}
+
+/*Experience Page*/
+    
+    .experience{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:90%;margin-left:5%;text-align:left;padding:5px;}
+
+@media only screen and (max-width: 1117px) {
+    .para{margin:0;text-align: left;}
+    
+    #project3img{display:block;
+        position:relative;
+        left:0;
+        bottom:0;
+}
+    .projectimgs{display:block;
+        position:relative;
+        left:0;
+        bottom:0; 
+        }
+   #img1{margin:0; display:inline-block;padding:1px; border:2px solid #009900;}
+    #img2,#img3,#img4{display:inline-block;}
+    
+     #BWimg1{padding:1px;margin-top:10px;margin-left:100px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    
+    #reflectionheader1{margin-top:130px;}
+    
+    #headers1{padding:1px;margin:0;}
+    .headers2{padding:1px;margin:0;}
+    #AboutMeheader{padding:1px;margin:0;}
+    
+    h1{font-size:20px;padding:1px;margin-left:80px;}
+    .homelists{margin-left: 2px;}   
+    #currentpos{font-size:14pt;}
+    .exp{font-size:14pt;}
+    #currentedu{font-size:14pt;}
+    .edu{font-size:14pt;}
+    
+    
+    h1{width:70%; margin-left:50px;font-size:30px;margin-top:130px;}
+    h3{width:70%; margin-left:50px;}
+    .para3{width:70%; margin-left:50px;}
+    
+    #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:50px;
+    line-height:50px;}
+    
+     .active{
+        top:65px;
+         text-align:center;
+        margin:0;padding:0;
+    }
+    .para2{margin:0px 10px;width:90%;}
+    #para4{margin:0px 10px;width:90%;}
+    blockquote{margin-left:5%;margin-right:5%;width:70%;}
+    
+    /*Reflection Page*/
+    #reflectionheader1{margin:0px 10px;margin-top:130px;z-index:1;width:75%;margin-left:0px;}
+    .reflectionheader2{margin:0px 10px;z-index:1;width:75%;}
+    #reflectionbody{position:relative;width:75%;margin:0px 10px;text-align:left;top:25px;}
+    
+    #AboutMeheader,.headers2{position:relative;font-size:18pt;left:50px;}
+   
+    
+    
+    /*Table for Experience*/
+table{
+    width:70%;
+    margin-left: 5%;
+}
+     th, td, caption{
+    padding:5px;
+    font-size:8pt;
+}
+    /*Experience Page*/
+    
+    .experience{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:75%;margin-left:5%;text-align:left;padding:5px;}
+    
+    
+    /*Contact Page*/
+    #contactheader{margin-left:5%;}
+    #contactpara{margin-top:50px;margin-left:15px;margin-right:18%;font-size:14pt;}
+    
+    /*home page*/
+     #img2,#img3,#img4{display:none;}
+    #qualities{display:none;} /*#qualities{position:absolute;top:118%;width:50%;font-size:14pt;right:150px;}
+    #img1{margin:10px;}*/
+    
+    #img1{position:relative; margin:0 40%}
+}
+
+ /*End of MediaQuery 1117px*/
+
+@media only screen and (max-width: 839px){
+    #qualities{position:absolute;display:inline-block; top:680px;left:35%;margin:0px;font-size:14pt;text-align:center;padding:5px;
+    width:200px;border:none; list-style-type: none;}
+    #img1{position:relative;margin:5px;margin-left:10%;padding:5px;}
+}
+@media only screen and (max-width: 666px){
+    #qualities{position:absolute;display:inline-block; top:750px;left:45%;margin:0px;font-size:14pt;text-align:center;padding:5px;
+    width:200px;border:none; list-style-type: none;}
+    #img1{position:relative;margin:5px;margin-left:10%;padding:5px;}
+}
+@media only screen and (max-width: 545px){
+    #qualities{position:absolute;display:inline-block; top:800px;left:45%;margin:0px;font-size:12pt;text-align:center;padding:5px;
+    width:200px;border:none; list-style-type: none;}
+    #img1{transform:scale(0.75);position:relative;margin:5px;margin-left:10%;padding:5px;}
+}
+@media only screen and (max-width: 510px){
+     
+    header{
+		position: relative;
+        height: 20px;
+        display: block;
+        width: 100%;        
+	}
+	label{
+		display: block;
+        cursor:pointer;
+        padding-left: 20px;
+        width: 26px;
+        float: left;
+        font-size:26px;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 10px;
+        top: 7%;
+        align-content: center;
+        width:30%;
+    }
+   body ul{list-style-type: circle;}
+    nav ul>li:active ul {
+    position: relative;
+    top: 100%;
+    width:105%;
+    display: none;    
+    }
+    nav ul ul li {
+    float:none;
+        top:0;
+    }
+    nav:hover ul {
+		display: block;
+	}
+    /*background for submenu*/
+    	nav:hover nav ul li ul{
+		display: none;
+        text-align: center; 
+    }
+	nav li {
+		text-align: center;
+        width: 100%;
+        padding: 1px 1px;
+		margin: 0;
+        top:0px;
+        left:5px;
+	}
+/*     positioning of submenu
+            nav ul>li ul {
+            position:absolute;
+            left: 0%;
+            top:0%;
+            z-index:1;
+        }
+    #hamburger:checked +.active{
+        display:block;}
+    
+            /*special hover to display the drop-down*/
+   .active:hover nav ul>li ul {display:block;width:100%;}
+
+    nav ul li {
+        color:white;
+        margin:0;
+        display:block;
+        width:100%;}
+
+    #navigationbar{
+    border-bottom: 1px solid white;
+    text-align:center;
+    height:30px;
+    line-height:30px;}
+    
+     .active{
+        top:45px;
+         text-align:center;
+        display:none;
+        margin:0;padding:0;
+    }
+    
+    #img1{padding:1px;margin-top:35px;margin-left:80px;margin-right:2px; border:2px solid #009900; z-index:1;}
+    
+    #BWimg1{padding:1px;margin-top:35px;margin-left:80px;margin-right:2px; border:2px solid #009900; z-index:1;}
+   
+    
+   
+    h1{width:70%; margin-left:50px;font-size:20px;margin-top:0px;}
+    nav a {
+    position:relative;
+    top:100%;
+    text-decoration: none;
+    width: 100%; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 1px;
+    display:block;
+    }
+    
+    #mobileHide{display: none;}
+    
+    /*Reflection Page*/
+    #reflectionheader1{margin-top:3px;z-index:1;width:75%;margin-left:0px;}
+    .reflectionheader2{margin-top:3px;z-index:1;width:75%;margin-left:0px;}
+    #reflectionbody{position:relative;width:78%;margin-left:0px;text-align:left;top:80px;}
+    
+    h1{width:75%; margin-left:50px;margin-top:30px;z-index:1;margin-bottom:30px;position:relative;}
+    h3{position:relative;width:75%; margin-left:0px;}
+    #project1{position:relative; top:20px; }
+    .para3{width:70%; margin-left:50px;margin-top:40px;}
+    
+    #currentedu{font-size:10pt;}
+    #currentpos{font-size:10pt;}
+    .edu{font-size:10pt;}
+    .exp{font-size:10pt;}
+    /*contact page*/
+    article{margin-top:50px;} 
+    
+    .para{margin:0px;margin-left:20px;font-size:10pt;}
+    .para2{margin:0px;}
+    #para4{margin:0px;}
+
+    blockquote{margin:0;padding:0;width:90%;font-size:6px;}
+    #iframe-container iframe{
+        position:relative;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        padding-bottom:5%;
+    }
+    
+    #AboutMeheader,.headers2{font-size:14pt;}
+        /*Table for Educational Background*/
+table{
+    margin-right: 0px;
+    margin-left: 5%;
+    margin-top:50px;
+   width:90%
+} 
+    th{font-size:8pt;
+    }
+     td, caption{
+    padding:5px;
+    font-size:8pt;
+    }
+
+/*Contact form*/
+.contactForm{padding:5px;margin:0 0px;}
+
+/*Contact Page*/
+.contactForm{text-align:left;font-size:14pt;}
+div label{display:block;font-size: 12pt;text-align:left;padding-left: 0px;width: auto; float: none;}
+
+#contactheader{margin-left:5%;}
+#contactpara{margin-top:50px;margin-left:5%;margin-right:15%;font-size:10pt;}
+   /*Home Page*/ 
+#AboutMeheader{margin-top:50px;margin-right:15%;font-size:10pt;}
+    
+    #qualities{display:inline-block; top:130%;left:55%;margin:0px;font-size:10pt;text-align:center;padding:0px;
+    width:50%;border:none; list-style-type: none;}
+    
+    
+    /*Experience Page*/
+    #expHeader{position:relative;}
+    .experience{position:relative;font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:90%;margin-left:5%;text-align:left;padding:5px;}
+    
+    
+    /*Project title*/
+    #projects{position:relative;top:40px;}
+    #project1title{margin-left:10%;}
+    #project1{margin-left:10%;}
+    #project2{margin-left:10%;}
+    #project3{margin-left:10%;}
+    .titleProj{margin-left:10%;}
+    .subheadProj{margin-left:10%;}
+    
+    
+    /*Resume Page*/
+    #res{font-size:14pt;}
+    .ResumePara{font-size:9pt;width:100%;padding:5px;margin:0;}
+   
+}/* End of Media Query for 510 px*/
+    
+@media only screen and (max-width: 400px){
+    #qualities{position:relative;display:inline-block; top:0px;left:35%;margin:0px;font-size:10pt;text-align:center;padding:0px;
+    width:50%;border:none; list-style-type: none;}
+    #img1{transform:scale(0.75);margin:0;padding:0;position:relative; left:38%;top:0px;}
+    
+    /*Table for Eexperience*/
+table{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:25px;
+    margin-bottom:25px;
+   width:100%
+} 
+    th{font-size:6pt;
+    }
+     td, caption{
+    padding:1px;
+    font-size:5pt;
+    }
+}
+
+blockquote{position:relative;left:50px;font-size:12pt;}
+
+  /*video embedding on resume page*/
+   /* iframe-container{
+        position:relative;
+        width:100%
+        padding-bottom:56.25%;
+        height:0;
+    }*/
+    
+    @media print{
+    
+    /*Hide Unwanted Items*/
+    img{display:none;}
+    #navigationbar{display:none;}
+    #BWimg1{display:block;}
+        
+    .box{width:600px;
+        height: 200px;
+        width:100%;
+        padding:0px;
+        margin:1px auto;
+        box-shadow: none;
+        border: none;
+        font: 16pt "Baloo Tamma 2", cursive;
+        line-height: 18pt;
+        background-image:none;
+        background-size:0;
+        color:#000;
+        border-top:1px solid black;  
+        color:#000;
+        background-image: none;
+        }
+        
+        
+        .exp{display: none;}
+        #currentpos{display:none;}
+        .headers2{display:none;}
+        
+    /*layout reset*/
+        #qualities{border:1px solid black;  margin:0;padding:0;width:25%;position:absolute;float:right;left:450px;top:100px;}
+
+    body {
+        font-family: sans-serif;
+        background:none;
+    }
+    body ul li{
+        font-family: sans-serif;
+        font-size:16pt; 
+        line-height:20pt;
+        color:#000;
+        background:none;
+    }
+    #headers1{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;margin:20px;padding:5px;border:none;}   
+        
+    #AboutMeheader{font:22pt "Baloo Tamma 2", cursive;line-height:25pt;color:#000;border:none;margin:0;padding:0;}
+        
+    h1{font:30pt "Baloo Tamma 2", cursive;line-height:32pt;color:#000;border:none;margin:0;padding:0;}
+    
+    h3{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;margin:5px;padding:0;}  
+        
+    h2,h4,h5,h6{color:#000;font-size:24pt;line-height: 30pt;margin:0;}
+        
+    #currentedu{font:14pt "Baloo Tamma 2", cursive;line-height:16pt;color:#000;border:none;margin:0;padding:0;list-style-type:circle;}   
+        
+    .edu{font:14pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;border:none;width:90%;margin:0;padding:0;list-style-type: circle;}
+
+    .para{font:16pt "Baloo Tamma 2", cursive;line-height:18pt;color:#000;width:90%;margin:0 auto;padding:0;border:none;}
+        
+    blockquote{
+        width:100%;
+        border:none;
+        padding:5px;
+        margin:0;
+        color:#000;
+        font-size:16pt;
+        line-height: 18pt;
+        border-top:1px solid #000;
+    }
+        
+   #footerone{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;border:none;margin:5px;padding:5px;border-bottom:1px solid #000;}   
+        
+        a:link{margin:0;padding:0}
+        
+        a::after{
+            content:"["attr(href)"]";
+        }
+        
+        footer a:link, footer a:visited {
+            color:#000;
+            background:none;
+            text-decoration-line: none;
+        }    
+        body{margin:25px 75px 75px 75px;}
+}
+
+
+

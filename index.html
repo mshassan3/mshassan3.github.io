@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+<!-- 
+***************************************************************************************************
+Title: Professional Website Home Page
+Use:An overview of you. Not detailed. 
+Author: Mehnaz Hassan
+School/Term: University of Missouri- Columbia,Summer 2020
+Developed:July 12, 2020
+Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
+***************************************************************************************************
+-->
+    <meta charset="utf-8">
+    <title>
+     Home Page
+    </title>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        
+        <link rel="icon" type="image/x-icon" href="images/favicon3.ico"/>
+        <!--Used Relational Selector (child)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600&display=swap"> 
+        
+    <style>
+        #qualities {color:darkgreen;}  
+    </style>   
+    </head>
+    <body>
+        
+      <nav id="navigationbar">
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+     <ul class="active">
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="experience.html">Experience</a></li>
+         <li><a href="reflection.html">Reflection</a></li> 
+        <li><a href="projects.html">Projects</a>
+             <ul id="mobileHide">
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+           <li><a href="project3.html">Project 3</a></li>
+            </ul>
+        </li>
+        <li class="lastMobile"><a href="contact.html">Contact</a></li>
+    </ul>
+     </nav>
+        <header>
+            <h1 class="name">Mehnaz Hassan </h1></header>
+          <!--this portion is to include the professional photo-->
+    
+         <!--The following is a short paragraph about me including my welcome statement-->
+        <h3 id="AboutMeheader">Welcome to my website!</h3>
+        <div><p class="para">Hi! My name is Mehnaz Hassan and my friends call me May. I attended UC Merced where I received my Bachelor's of Science in Applied Mathematics. Later, I attended Fresno Pacific University where I received my preliminary single subject teaching credential. After two years, I obtained clearance of my single subject teaching credential for mathematics with Merced City School District. Now, I am excited to be pursuing my Master's in Learning Technologies and Design degree. I started my journey as a mentee during my fieldwork experience at UC Merced, then continued my path as an educator teaching sixth grade math for a year in Dos Palos, CA. During the last four years, I taught seventh grade math. This academic school year, I am excited to be teaching eighth grade industrial arts (technology). I see opportunity for growth as I am teaching eighth graders and a new curriculum (Paxton Patterson).  
+        </p>
+            </div>
+        
+        
+        <img id="img1" src ="images/photo1.jpg" alt="Professional Headshot" height="200"> 
+        <div id="collegePics"> 
+        <img id="BWimg1" src ="images/BWphoto1.jpg" alt="Professional Headshot" height="160"> 
+        <img id="img2" src ="images/ucmerced.jpg" alt="UC Merced" height="160"> 
+        <img id="img3" src ="images/fpulogo.svg" alt=" FPU LOGO" height="160">
+        <img id="img4" src ="images/MU.png" alt=" Univ of Missouri LOGO" height="160">
+        </div>
+       <!--Unordered list (bullets) of degrees and certifications-->
+        
+        <ul id="qualities">
+            <li><strong>Career Skills</strong></li>
+            <li>Hardworker</li> 
+            <li>Passionate</li>
+            <li>Respectful</li>
+            <li>Ongoing Learner</li>
+            <li>Team Player</li>
+            </ul>
+        
+        <h3 class ="headers2">Educational Background </h3>
+        <ul class ="homelists">
+        <li id="currentedu"> <strong>University of Missouri - Columbia (Present-June 2023)</strong> - Pursuing Master's in Learning Technologies and Design degree <i>(Online Education)</i> </li>
+         <li class="edu"> 
+        <strong>Merced City School District (June 2019)</strong> - Cleared Single Subject Math Teaching Credential
+         </li>
+        <li class="edu"> 
+        <strong>Fresno Pacific University (May 2017)</strong> - Preliminary Single Subject Math Credential</li>    
+        <li class ="edu">
+        <strong> University of California, Merced (May 2012)</strong> -
+            Bachelor of Science: Applied Mathematical Science<i>
+        (Emphasis in Engineering and minor in Natural Sciences Education)</i>
+        </li>
+     </ul>
+        
+         <h3 class ="headers2">Experience </h3>
+        <!--Unordered list (bullets) of degrees and certifications-->
+        <ul class="homelists">
+        <li id="currentpos">
+        <strong> Merced City School District </strong> -
+           Industrial Arts Teacher
+        (August 2020-2021)
+        </li>
+        <li class="exp"> 
+        <strong>Merced City School District</strong> - 7th Grade Math Teacher (August 2016-June 2020) </li>
+        <li class ="exp"> 
+        <strong>Dos Palos Oro Loma Joint Unified School District</strong> - 6th Grade Math Teacher (Sept 2015-June 2016)
+         </li>
+        <li class="exp"> <strong>Chico Unified School District</strong> - Substitute Teacker from Kindergarten thru high school (August 2013-June 2014) </li>
+     </ul>
+        
+        <blockquote>
+        “Knowledge is power” by Sir Francis Bacon is one of my favorite quotes from middle school that my bus driver used to say.
+        </blockquote> 
+        <div class="box">        
+   <footer id ="footerone">
+       <ul id="iconList"> 
+        <li>
+        <a href="tel:1-888-888-8888">
+        <img class="icons" src="images/Cell_icon.png" alt="Cell Icon Image"/>Cell:1-888-888-8888</a>
+           </li>
+        <li>
+         <a href="mailto:mhmd3@umsystem.edu">
+        <img class="icons" src="images/Email_icon.png" alt="Email Icon Image"/>Email: mhmd3@umsystem.edu</a>
+           </li>
+       </ul> 
+       <p class="Footer">&copy;Copyright 2020 Mehnaz Hassan
+       </p>
+       <p class="Footer">Retrieved Icons from the following sites:</p>
+       <p class="Footer"><a href="https://icons8.com/icon/82072/indian-girl-phone-call">Indian Girl Phone Call icon by Icons8</a>
+        <a href="https://icons8.com/icon/109463/email">Email icon by Icons8</a></p>
+        </footer>
+        </div>
+    </body>
+</html>

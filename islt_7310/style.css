@@ -14,7 +14,7 @@ Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
 /*Home page*/
 div p{text-align: center;width:90%;}
 /*Body in general*/
-body{background-color: papayawhip; margin:15px;}
+body{background-color: white; margin:15px;}
 
 /*Resume*/
 #res{color:green;text-align:center;font-size:24pt;}
@@ -38,9 +38,9 @@ h1{
 body ul{list-style-type: none;}
 #headers1{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-.headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
+.headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
 
-#AboutMeheader{color:darkgreen;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
+#AboutMeheader{color:darkgreen;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:white;text-align:center;} 
 
 footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
 #footerone{border-top: 2px dotted #009900;padding:5px;font: 1em "Baloo Tamma 2", cursive;}

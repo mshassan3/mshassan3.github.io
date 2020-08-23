@@ -40,7 +40,7 @@ body ul{list-style-type: none;}
 
 .headers2{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
-#AboutMeheader{color:#009900;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
+#AboutMeheader{color:darkgreen;font-size:20pt;font-family:cursive;border:5px solid teal;background-color:beige;text-align:center;} 
 
 footer a:hover{color:blue; font-size:10pt;text-decoration: none;}
 #footerone{border-top: 2px dotted #009900;padding:5px;font: 1em "Baloo Tamma 2", cursive;}

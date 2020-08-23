@@ -74,18 +74,104 @@ Tested: August 19, 2020; Passed on Chrome, Firefox and validation test.
     <h1 id ="contactheader"> Would you like to contact me?</h1>
     </header>
        
-<article>
-    <h4 id= "contactpara"> Contact me today to schedule an interview! </h4>
-    <ul id="contactMe">
-        <li>Contact Me:</li>        
-        <li> Email: mhmd3@umsystem.edu</li>
-        <li>Cell: 1+888-888-8888</li>
-    </ul>
-</article>
-       <section id="googleForm">
-        <h4>How did you find me?(Survey with one question)</h4>
-        <a href="https://forms.gle/i6pxrowwJLTWXmwd9">Google Form</a>
-    </section>
+
+    <h4 id= "contactpara"> Contact me today to schedule an interview, appointment or meeting! I am excited to meet you! </h4>
+       
+    <form action="mailto:mhmd3@umsystem.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+
+    <div class="contactForm">
+        <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="firstName" autofocus placeholder="First Name" required>
+        </div>
+    <div class="contactForm">
+        <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+        </div>
+    <div class="contactForm">
+       <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>
+        
+        <!--To input phone
+        <div>
+        <label for="phone">Phone</label>
+        <input type "tel" name="phone" id="phone">
+        </div>
+        -->
+        <!--To input URLs
+        <div>
+        <label for="url">URL</label>
+            <input type="url" name="url" id="url">
+        </div>
+        -->
+        <!--To input Color
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+        -->
+       
+    <div class="contactForm">
+      <label for="message">Message</label>
+        <textarea id="message" name="message" id="message" placeholder="Message" required></textarea> 
+        </div>
+        
+        <div class="contactForm">
+    <label for="findMe">How did you find out about me?</label>
+    <textarea id="findMe" name="findMe" id="findMe" placeholder="How did you find me?" required></textarea>
+        </div>
+<!--To ask user to input a file
+        <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+        </div>
+-->
+<!--For Input on dates
+<div>
+    <label for="date">Appointment Date</label>
+    <input type="date" name="date" id="date" min="2019-06-10"> 
+ </div>-->
+        
+<!--Checkboxes
+<div>
+    Favorite Food
+  <div><label for="banana">Banana</label>
+    <input type="checkbox" name="banana" id="banana"> 
+  </div>
+  <div><label for="apple">Apple</label>
+    <input type="checkbox" name="apple" id="apple"> 
+</div>
+-->
+<div class="contactForm">
+      <button type="reset">Reset</button>  
+      <button type="submit">Send</button>  
+</div>  
+
+<!--When you want user to have to make only one selection
+<div>
+    Gender
+    <div>
+        <label for="male">Male</lablel>
+        <input type="radio" name="gender" id="male" value="male">
+    </div>
+    <div>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>              
+</div> 
+-->
+<!--Allows to select from a scroll down menu of options and multiple allows you to select more than one
+    <div>
+    <label for="eyeColor">Eye Color</label>
+    <select name="eyeColor" id="eyeColor" multiple>
+    <option value="Green">Green</option>
+    <option label="Red" value="Red"></option>
+    </select>
+-->
+           
+    </form>
+    
+    
     <br><br><br>
    <div class="box">        
    <footer id ="footerone">

@@ -251,7 +251,7 @@ div label{display:block;font-size: 14pt;text-align:left;}
 
 /*Experience Page*/
     
-    .experience{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:90%;margin-left:5%;text-align:left;padding:5px;}
+    .experience{font:12pt "Baloo Tamma 2", bold;line-height:14pt;color:#000;width:90%;margin-left:5%;text-align:left;padding:5px;background-color:white;}
 
 @media only screen and (max-width: 1117px) {
     .para{margin:0;text-align: left;}
@@ -324,7 +324,8 @@ table{
 }
     /*Experience Page*/
     
-    .experience{font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:75%;margin-left:5%;text-align:left;padding:5px;}
+    .experience{font:12pt "Baloo Tamma 2", bold;line-height:14pt;color:#000;width:70%;
+    margin-left: 5%;text-align:left;padding:5px;background-color:white;}
     
     
     /*Contact Page*/
@@ -521,7 +522,10 @@ div label{display:block;font-size: 12pt;text-align:left;padding-left: 0px;width:
     
     /*Experience Page*/
     #expHeader{position:relative;}
-    .experience{position:relative;font:12pt "Baloo Tamma 2", cursive;line-height:14pt;color:#000;width:90%;margin-left:5%;text-align:left;padding:5px;}
+    .experience{position:relative;font:8pt "Baloo Tamma 2", bold;line-height:10pt;color:#000;margin-right: 0px;
+    margin-left: 5%;
+    margin-top:0px;
+   width:90%;text-align:left;padding:5px;background-color:white;}
     
     
     /*Project title*/
